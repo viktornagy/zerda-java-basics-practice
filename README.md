@@ -100,14 +100,20 @@ Blackberry is created
 
 #### Explain what you did, and answer the questions here:
 
+Hibával le fog állni, nem fut le a program, mert a „main” függvény statikus és a „getNumber” pedig nem statikus és statikus függvénybõl nem lehet meghívni nem statikust. Blackbarry osztály getNuber függvényét át kell írni „static”-ra és le fog futni a következõ output-tal:
+ 
+Apple is created
+Blackberry is created
+4
+
 
 ## 4. Question time! (~20 mins) [6p]
 
 ### Whats the difference between a Class and an Object? [2p]
-#### Your answer:
+#### Your answer: Az osztály egy típusmeghatározás, egy valami amibõl létre tudunk hozni Objectumokat példányosítással.
 
 ### What is the superclass when a class doesnt extend anything? What methods will it inherit (the two most important is enough)? [2p]
-#### Your answer:
+#### Your answer: A „superclass” az a Oject osztály lesz ebben az esetben. 
 
 ### What is polymorphism? [2p]
 #### Your answer:
